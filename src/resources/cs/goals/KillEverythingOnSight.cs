@@ -39,7 +39,7 @@ namespace XRL.World.AI.GoalHandlers {
             return;
           }
         } else {
-          ParentBrain.PushGoal(new WanderRandomly("3d4".RollCached()));
+          ParentBrain.PushGoal(new WanderRandomly("1d4".RollCached()));
         }
       }
 
